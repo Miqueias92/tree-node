@@ -1,0 +1,26 @@
+/* src/App.css */
+.App {
+  text-align: left;
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.treeview-container {
+  max-width: 1200px; /* Expande a área de exibição */
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #2a2a2a;
+}
+
+/* Aumenta a fonte dos elementos */
+.treeview-container, .treeview span, .treeview strong {
+  font-size: 16px;
+}

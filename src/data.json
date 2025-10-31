@@ -1,0 +1,30 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "address": {
+      "city": "New York",
+      "zip": "10001",
+      "country": "USA"
+    },
+    "emails": [
+      "john.doe@example.com",
+      "jdoe@gmail.com"
+    ],
+    "isEmployed": true,
+    "projects": [
+      {
+        "title": "Project A",
+        "status": "ongoing",
+        "list": ["task 1", "task 2"]
+      },
+      {
+        "title": "Project B",
+        "status": "completed",
+        "team": {
+          "lead": "Alice",
+          "members": ["Bob", "Charlie"]
+        }
+      }
+    ]
+  }
+  

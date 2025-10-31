@@ -1,0 +1,76 @@
+/* src/components/TreeView.css */
+.treeview {
+    font-family: Arial, sans-serif;
+    text-align: left;
+  }
+  
+  .treeview ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .treeview li {
+    margin: 10px 0;
+    padding: 5px;
+  }
+  
+  .treeview div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .treeview .folder {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f9ca24;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .treeview .folder:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid #f9ca24;
+    margin-right: 5px;
+  }
+  
+  .treeview .line {
+    border-left: 1px solid #f9ca24; /* Cor da linha (amarelo) */
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100%;
+  }
+  
+  .treeview strong {
+    margin-right: 5px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+  }
+  
+  /* Definindo cores de destaque */
+  .treeview .treeview {
+    background-color: #fff;
+  }
+  
+  .treeview .treeview li:nth-child(2n) {
+    background-color: #f0f0f0;
+  }
+  
+  .treeview .treeview li:nth-child(2n+1) {
+    background-color: #e0e0e0;
+  }
+  
+  /* Cores dos elementos da árvore */
+  .treeview span {
+    color: #555;
+  }
+  
+  .treeview strong {
+    color: #000;
+  }
