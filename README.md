@@ -2,7 +2,7 @@
 
 Um visualizador interativo de JSON construído com **React**, projetado para facilitar a leitura e exploração de estruturas JSON de forma simples e elegante.
 
-Permite inserir um JSON manualmente, visualizar em formato de árvore e expandir automaticamente os nós para uma inspeção mais rápida.
+👉 **Acesse online:** [https://tree-node-xi.vercel.app](https://tree-node-xi.vercel.app)
 
 ---
 
@@ -10,7 +10,9 @@ Permite inserir um JSON manualmente, visualizar em formato de árvore e expandir
 
 > 💡 Cole ou digite um JSON no campo de texto e clique em **"Visualizar"** para gerar a árvore.
 
-![Preview do app](https://tree-node-xi.vercel.app/)
+🔗 **Teste agora:** [https://tree-node-xi.vercel.app](https://tree-node-xi.vercel.app)
+
+![Preview do app](https://github.com/user-attachments/assets/b2416d01-da84-4d01-8d27-ed4e40ada773)
 
 ---
 
@@ -32,7 +34,7 @@ Permite inserir um JSON manualmente, visualizar em formato de árvore e expandir
 | ⚛️ **React** | Base da aplicação |
 | 💅 **CSS Puro** | Estilização leve e responsiva |
 | 🧩 **Hooks (useState, useEffect)** | Gerenciamento de estado e interação |
-| 📂 **Componentização** | Estrutura simples e modular (`App` + `TreeView`) |
+| 📂 **Componentização** | Estrutura modular (`App` + `TreeView`) |
 
 ---
 
